@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,560;0,600;0,700;1,600&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -7,7 +6,6 @@ body {
   max-width: 1300px;
   margin: auto;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .bloc_page {
@@ -55,13 +53,6 @@ nav li:hover {
 }
 
 /* Seacrh Bar */
-#lol {
-  display: flex;
-  border: 1px solid #0065fc;
-  background-color: #0065fc;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 
 .submit_button_mobile {
   display: none;
@@ -112,12 +103,13 @@ nav li:hover {
   height: 50px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 #search_bar::placeholder {
   color: black;
   font-weight: 500;
+  font-size: 20px;
 }
 .search_bar_form {
   display: flex;
@@ -139,6 +131,11 @@ nav li:hover {
   display: flex;
   font-family: "Raleway", sans-serif;
   align-items: center;
+}
+
+.filters h1 {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 #filters {
@@ -201,14 +198,15 @@ ul a {
   display: flex;
   flex-direction: row;
   font-family: "Raleway", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 300;
 }
 
 .info i {
   color: #0065fc;
 }
 
-/* Thumbnail accomodation and popular */
+/* Thumbnails accomodation and popular */
 
 .thumbnail {
   display: flex;
@@ -219,6 +217,7 @@ ul a {
 
 .thumbnail_accomodation h1 {
   margin: 20px 0 20px 30px;
+  font-weight: 560;
 }
 
 .thumbnail_accomodation {
@@ -269,8 +268,7 @@ ul a {
   color: black;
 }
 .hotel_name {
-  margin-bottom: 3px;
-  margin-top: 5px;
+  margin: 0px;
 }
 .price {
   font-size: 13px;
@@ -298,7 +296,7 @@ ul a {
 
 .ad_text_accomodation {
   width: 100%;
-  padding-left: 10px;
+  padding: 5px 0 0 10px;
   height: 80px;
 }
 
@@ -336,6 +334,7 @@ ul a {
 .thumbnail_popular h1,
 .thumbnail_popular_title i {
   margin: 20px 0 20px 0;
+  font-weight: 560;
 }
 
 .first_column {
@@ -391,7 +390,7 @@ ul a {
   color: #0065fc;
   font-size: 13px;
 }
-/* activities */
+/* Activities */
 
 .last_section {
   display: flex;
@@ -407,7 +406,9 @@ ul a {
   justify-content: space-between;
   height: 80%;
 }
-
+.last_section h1 {
+  font-weight: 560;
+}
 .activities img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -523,13 +524,16 @@ ul a {
 }
 
 .activities_text {
-  margin-left: 10px;
+  padding: 10px 0 10px 10px;
+}
+.activities p {
+  margin: 0;
 }
 
 .activities a:hover {
   color: #0065fc;
 }
-/* footer */
+/* Footer */
 
 .footer {
   display: flex;
