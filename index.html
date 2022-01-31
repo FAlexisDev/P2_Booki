@@ -11,8 +11,8 @@
 
     <!-- CSS Integrationn -->
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
 
     <!-- Icons Integration -->
     <script
@@ -67,10 +67,8 @@
               <input type="submit" value="Rechercher" id="submit_button" />
 
               <div class="submit_button_mobile">
-                <form method="post" action="booki.php" class="search_bar_form">
-                  <i class="fas fa-search"> </i>
-                  <input type="submit" value="" id="submit_button_mobile" />
-                </form>
+                <i class="fas fa-search"></i>
+                <input type="submit" value="" id="submit_button_mobile" />
               </div>
             </form>
           </div>
@@ -80,20 +78,28 @@
             <h1>Filtres</h1>
             <ul id="filters">
               <li id="economic">
-                <i class="fas fa-money-bill-wave"></i>
-                <a href="#"> Economique </a>
+                <a href="#">
+                  <i class="fas fa-money-bill-wave"></i>
+                  <p>Economique</p>
+                </a>
               </li>
               <li id="family">
-                <i class="fas fa-child"></i>
-                <a href="#"> Familial </a>
+                <a href="#"
+                  ><i class="fas fa-child"></i>
+                  <p>Familial</p>
+                </a>
               </li>
               <li id="love">
-                <i class="fas fa-heart"></i>
-                <a href="#"> Romantique </a>
+                <a href="#"
+                  ><i class="fas fa-heart"></i>
+                  <p>Romantique</p>
+                </a>
               </li>
               <li id="Animals">
-                <i class="fas fa-dog"></i>
-                <a href="#"> Animaux autorisés </a>
+                <a href="#"
+                  ><i class="fas fa-dog"></i>
+                  <p>Animaux autorisés</p>
+                </a>
               </li>
             </ul>
           </div>
@@ -305,6 +311,7 @@
               <a href="#" id="show_more">Afficher plus</a>
             </div>
           </div>
+
           <!-- Thumbnail popular -->
           <div class="thumbnail_popular">
             <div class="thumbnail_popular_title">
@@ -316,7 +323,7 @@
                 <div class="popular_ad">
                   <img
                     srcset="
-                      images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplashjpg  4249w,
+                      images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 4249w,
                       images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg  2125w,
                       images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1063w,
                       images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg   532w
@@ -430,7 +437,7 @@
                     images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w,
                     images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg   702w
                   "
-                  src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                  src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                   alt="activities_ad"
                 />
                 <div class="activities_text">
@@ -448,7 +455,7 @@
                       images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg  711w,
                       images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg   356w
                     "
-                    src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                    src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                     alt="activities_ad"
                   />
                   <div class="activities_text">
@@ -465,7 +472,7 @@
                       images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1296w,
                       images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg   648w
                     "
-                    src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                    src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                     alt="activities_ad"
                   />
                   <div class="activities_text">
@@ -483,7 +490,7 @@
                     images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1212w,
                     images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg   606w
                   "
-                  src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                  src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                   alt="activities_ad"
                 />
                 <div class="activities_text">
@@ -501,7 +508,7 @@
                       images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1178w,
                       images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg   589w
                     "
-                    src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                    src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                     alt="activities_ad"
                   />
                   <div class="activities_text">
@@ -518,7 +525,7 @@
                       images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1008w,
                       images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg   504w
                     "
-                    src="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                    src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                     alt="activities_ad"
                   />
                   <div class="activities_text">
