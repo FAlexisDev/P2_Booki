@@ -1,6 +1,6 @@
-#Bienvenue sur mon projet de formation proposé par Openclassrooms.
+# Bienvenue sur mon projet de formation proposé par Openclassrooms.
 
-##Il s'agit du deuxième projet de la formation dévéloppeur web.
+## Il s'agit du deuxième projet de la formation dévéloppeur web.
 
 Afin de voir le projet merci de :
 
