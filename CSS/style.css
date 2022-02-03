@@ -2,15 +2,13 @@
 * {
   box-sizing: border-box;
 }
-body {
-  max-width: 1300px;
-  margin: auto;
-  padding: 0;
-}
 
 .bloc_page {
-  max-width: 1300px;
-  margin: auto;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+body {
+  margin: 0 auto;
 }
 
 /* header */
@@ -99,10 +97,10 @@ nav li:hover {
 
 #search_bar {
   border: none;
-  width: 250px;
+  width: 275px;
   height: 50px;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
 }
 
@@ -154,7 +152,7 @@ nav li:hover {
   align-items: center;
   margin: 10px;
   border-radius: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(139, 77, 77, 0.2);
 }
 
 #economic a,
@@ -256,9 +254,8 @@ ul a {
 }
 
 .first_row a,
-#second_row a {
+.second_row a {
   width: 30%;
-  height: 100%;
 }
 
 .ad {
@@ -268,9 +265,8 @@ ul a {
   border: 1px solid white;
   border-radius: 20px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0.5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   width: 100%;
-  height: 100%;
   padding: 2px;
 }
 
@@ -297,7 +293,7 @@ ul a {
   margin: 20px;
 }
 
-#second_row {
+.second_row {
   display: flex;
   justify-content: space-around;
   margin: 20px;
@@ -306,14 +302,14 @@ ul a {
 
 .ad_text_accomodation {
   width: 100%;
-  padding: 5px 0 0 10px;
-  height: 80px;
+  padding: 10px 0 0px 10px;
+  height: 85px;
 }
 
 .show_more {
   display: flex;
 }
-#show_more {
+.show_more_details {
   text-decoration: none;
   color: black;
   font-family: "Raleway", sans-serif;
@@ -321,8 +317,8 @@ ul a {
   font-weight: 500;
 }
 
-#show_more:hover {
-  border-bottom: 1px solid black;
+.show_more_details:hover {
+  border-bottom: 1px solid #0065fc;
 }
 
 .thumbnail_popular {
@@ -343,8 +339,9 @@ ul a {
 
 .thumbnail_popular h1,
 .thumbnail_popular_title i {
-  margin: 20px 0 20px 0;
+  margin: 20px 0 20px;
   font-weight: 560;
+  font-size: 24px;
 }
 
 .first_column {
@@ -363,7 +360,7 @@ ul a {
   border: 1px solid white;
   border-radius: 15px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0.5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -429,7 +426,7 @@ ul a {
   display: flex;
   flex-direction: column;
   border: 1px solid white;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   border-radius: 20px;
   height: 100%;
   width: 25%;
@@ -467,7 +464,7 @@ ul a {
   width: 100%;
   height: 60%;
   border: 1px solid white;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   border-radius: 20px;
 }
 
@@ -483,7 +480,7 @@ ul a {
   width: 100%;
   height: 30%;
   border: 1px solid white;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   border-radius: 20px;
 }
 
@@ -507,7 +504,7 @@ ul a {
   width: 100%;
   height: 40%;
   border: 1px solid white;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   border-radius: 20px;
 }
 
@@ -523,7 +520,7 @@ ul a {
   width: 100%;
   height: 50%;
   border: 1px solid white;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
   border-radius: 20px;
 }
 
