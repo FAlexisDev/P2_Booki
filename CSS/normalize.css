@@ -1,9 +1,3 @@
-@media screen and (min-width: 767px) {
-  .bloc_page {
-    width: 90%;
-  }
-}
-
 @media screen and (max-width: 767px) {
   html {
     width: 100%;
@@ -11,6 +5,7 @@
     overflow: auto;
   }
   .bloc_page {
+    width: 100%;
     max-width: 767px;
     margin: 0 auto;
   }
@@ -330,12 +325,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .bloc_page {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-  }
+@media screen and (min-width: 769px) and (max-width: 991px) {
   .thumbnail {
     display: flex;
     flex-direction: column-reverse;

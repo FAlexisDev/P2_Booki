@@ -7,6 +7,7 @@
 .bloc_page {
   margin: 0 auto;
   max-width: 1500px;
+  width: 90%;
 }
 
 body {
@@ -564,7 +565,7 @@ footer {
   justify-content: center;
   margin: auto;
   font-family: "Raleway", sans-serif;
-  width: 90%;
+  width: 95%;
   max-width: 1500px;
 }
 
